@@ -55,7 +55,7 @@ To run the project, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/image-colorization-gan.git
+    git clone https://github.com/Abishek-Github/Colorify-GANs.git
     cd image-colorization-gan
     ```
 
