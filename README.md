@@ -50,36 +50,6 @@ The dataset is then extracted programmatically, making it easier to handle large
    - Input: Grayscale images
    - Output: Colorized images with realistic and vivid colors.
 
-## Running the Project
-To run the project, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/Abishek-Github/Colorify-GANs.git
-    cd image-colorization-gan
-    ```
-
-2. Install the required libraries:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Download and extract the dataset:
-    ```python
-    !gdown --id YOUR_DRIVE_FILE_ID
-    !unzip dataset.zip -d ./data
-    ```
-
-4. Train the GAN model:
-    ```python
-    python train.py
-    ```
-
-5. Test the model:
-    ```python
-    python test.py
-    ```
-
 ## Results and Evaluation
 The performance of the model is evaluated using:
 - **Qualitative Metrics**: Visual inspection of the colorized images.
